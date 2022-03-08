@@ -4,7 +4,7 @@ export const TextArea = function TextArea({ height, properties, exposedVariables
   useEffect(() => {
     setExposedVariable('value', properties.value);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [properties.value]);
+  }, [properties]);
 
   return (
     <textarea
