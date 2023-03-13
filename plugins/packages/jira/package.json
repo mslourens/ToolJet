@@ -1,0 +1,27 @@
+{
+  "name": "@tooljet-plugins/jira",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "tsc -b",
+    "clean": "rimraf ./dist && rimraf tsconfig.tsbuildinfo"
+  },
+  "homepage": "https://github.com/tooljet/tooljet#readme",
+  "dependencies": {
+    "@tooljet-plugins/common": "file:../common",
+    "jira-client": "^8.2.2",
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/jira-client": "^7.1.6"
+  }
+}

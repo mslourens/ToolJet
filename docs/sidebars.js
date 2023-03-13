@@ -63,6 +63,7 @@ const sidebars = {
             'data-sources/google.sheets',
             'data-sources/graphql',
             'data-sources/influxdb',
+            'data-sources/jira',
             'data-sources/mailgun',
             'data-sources/mariadb',
             'data-sources/minio',
